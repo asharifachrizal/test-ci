@@ -22,4 +22,8 @@ class Tampan extends CI_Controller {
 	{
 		$this->load->view('welcome_message');
 	}
+
+	public function home() {
+		echo "<h1>GW TAMPAN</h1>";
+	}
 }
